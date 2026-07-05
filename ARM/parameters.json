@@ -2,6 +2,7 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
+<<<<<<< HEAD
         "virtualMachines_my_machine_name": {
             "value": null
         },
@@ -21,6 +22,57 @@
             "value": null
         },
         "virtualNetworkGateways_VirsualNetworkGetwayp2s_name": {
+=======
+        "virtualMachines_HQVM2_name": {
+            "value": null
+        },
+        "connections_azure_to_hq_name": {
+            "value": null
+        },
+        "connections_HQ_to_Azure_name": {
+            "value": null
+        },
+        "virtualNetworks_HQ_VNet_name": {
+            "value": null
+        },
+        "networkInterfaces_hqvm2144_name": {
+            "value": null
+        },
+        "virtualMachines_AzureSideVM1_name": {
+            "value": null
+        },
+        "publicIPAddresses_public_ip2_name": {
+            "value": null
+        },
+        "virtualNetworks_Azure_HQ_VNet_name": {
+            "value": null
+        },
+        "networkSecurityGroups_HQVM2_nsg_name": {
+            "value": null
+        },
+        "networkInterfaces_azuresidevm1555_name": {
+            "value": null
+        },
+        "publicIPAddresses_AzureSideVM1_ip_name": {
+            "value": null
+        },
+        "networkSecurityGroups_AzureSideVM1_nsg_name": {
+            "value": null
+        },
+        "virtualNetworkGateways_Azure_VPN_Getway_name": {
+            "value": null
+        },
+        "publicIPAddresses_public_ip_forazure_VPN_name": {
+            "value": null
+        },
+        "localNetworkGateways_HQLocalNetworkGetWay_name": {
+            "value": null
+        },
+        "localNetworkGateways_AzureLocalNetwokGetWay_name": {
+            "value": null
+        },
+        "virtualNetworkGateways_VPNGetWay_onprimises_name": {
+>>>>>>> 0919837f8c77c00f86282798eb436fee83d60969
             "value": null
         }
     }
